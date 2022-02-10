@@ -12,10 +12,6 @@ This project is my personal Portifolio on which you my find my recent work and c
 - CSS
 
 
-## Live Demo (if available)
-
-N/A
-
 
 ## Getting Started
 
@@ -27,19 +23,10 @@ N/A
 
 1. Should have installed any web browser
 
-### Setup
-
-N/A
-
-### Install
-
-N/A
 
 ### Usage
 
 1. Open index.html located at the route folder of the project
-
-
 
 
 
