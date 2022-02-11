@@ -57,6 +57,7 @@ header {
 
 .header-title div ul li {
   padding: 10px;
+  list-style-type: none;
 }
 
 .works {
@@ -66,121 +67,8 @@ header {
 }
 
 .works .recent-works {
-  height: auto;
-  border-bottom: 2px solid black;
-  margin-bottom: 90px;
-  display: flex;
-  align-items: center;
-}
-
-.works h1 {
-  font-family: "Crete Round", sans-serif;
-  font-size: 45px;
-  line-height: 52px;
-  font-style: normal;
-  font-weight: normal;
-  color: #1c1a19;
-}
-
-.works h2 {
-  font-family: "Crete Round", sans-serif;
-  font-size: 36px;
-  line-height: 52px;
-  margin: 12px 0;
-  border: 0;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.works p {
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.works button {
-  color: white;
-  padding: 15px;
-  border: none;
-  margin: 10px auto;
-  font-weight: bold;
-  background: #ff6b00;
-}
-
-.works .box {
-  display: flex;
-  flex-direction: row;
-  align-content: space-between;
-}
-
-.about-me button {
-  color: white;
-  padding: 15px;
-  border: none;
-  font-size: 16px;
-  margin: 10px auto;
-  font-weight: bold;
-  background: #ff6b00;
-  margin-left: 30px;
-}
-
-.works button:hover {
-  color: #ff6b00;
-  padding: 15px;
-  margin: 10px auto;
-  font-weight: bold;
-  background: white;
-  border: 1px solid #ff6b00;
-}
-
-.works .box button {
-  padding: 15px;
-  border: 1px solid black;
-  margin-right: 10px;
-  font-family: "Inter", sans-serif;
-  color: black;
-  background-color: white;
-}
-
-.works .segment button {
-  color: white;
-  border: none;
-  font-weight: bold;
-  background: #ff6b00;
   margin: 0;
-  width: 349px;
-  margin-left: 0;
-}
-
-.works .box button:hover {
-  padding: 15px;
-  margin-right: 10px;
-  font-family: "Inter", sans-serif;
-  background-color: white;
-  border: 1px solid #ff6b00;
-  color: #ff6b00;
-}
-
-.works .segment {
-  margin: 0;
-}
-
-.works .segment button:hover {
-  font-weight: bold;
-  background: white;
-  margin: 0;
-  width: 349px;
-  margin-left: 0;
-  border: 1px solid #ff6b00;
-  color: #ff6b00;
-}
-
-.works .segment .container {
-  height: 300px;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.2) 61.94%), url("img/Mask-bg.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 50px;
+  padding: 0;
 }
 
 .about-me h1 {
@@ -193,56 +81,43 @@ header {
   margin-bottom: 20px;
 }
 
-.about-me .language h1 {
-  font-family: "InaiMathi", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 44px;
-  color: white;
-  margin: 0;
-  padding-left: 8px;
-}
-
-.about-me .frameworks h1 {
-  font-family: "InaiMathi", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 44px;
-  color: white;
-  margin: 0;
-  padding-left: 20px;
-}
-
-.about-me .frameworks ul li {
-  color: white;
-  font-size: 22px;
-  font-weight: 24;
-  list-style-type: none;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  line-height: 43px;
-  display: flex;
-}
-
-.about-me .skills h1 {
-  font-family: "InaiMathi", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 44px;
-  color: white;
-  margin: 0;
-  padding-left: 20px;
-}
-
-.works .segment .container h1 {
-  font-weight: normal;
+.works .recent-works h1 {
+  margin-top: 30px;
   font-family: "Crete Round", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.about-me .line {
+  border: 1px solid white;
+  position: inherit;
+  margin-top: 200px;
+  width: 300px;
+  margin-left: 50px;
+}
+
+.works .recent-works .line {
+  border: 1px solid black;
+}
+
+.about-me img {
+  position: absolute;
+  float: left;
+  margin-left: 48px;
+}
+
+.works .recent-works img {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.works .recent-works h2 {
+  margin-top: 30px;
+  font-family: "Crete Round", sans-serif;
+  font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  color: white;
 }
 
 .about-me p {
@@ -253,7 +128,143 @@ header {
   padding-left: 30px;
 }
 
-.works .segment .container p {
+.works .recent-works p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 44px;
+  line-height: 24px;
+  color: #091e42;
+}
+
+.box .holder ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  place-content: space-between;
+}
+
+.about-me .language ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+}
+
+.works .recent-works .tech ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  place-content: space-between;
+}
+
+.about-me .language ul li {
+  color: white;
+  font-size: 22px;
+  list-style-type: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 43px;
+  display: flex;
+}
+
+.box .holder ul li {
+  padding: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  justify-content: space-between;
+  line-height: 22px;
+  border: 1px solid #8993a4;
+  color: white;
+  background: rgba(255, 255, 255, 0.24);
+  margin-right: 5px;
+}
+
+.works .recent-works .tech ul li {
+  padding: 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  justify-content: space-between;
+  line-height: 22px;
+  border: 1px solid #8993a4;
+  width: auto;
+  color: #091e42;
+}
+
+.box button {
+  margin: 0;
+  color: white;
+  padding: 15px;
+  border: none;
+  font-weight: bold;
+  background: #ff6b00;
+  width: 100%;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+}
+
+.about-me button {
+  color: white;
+  padding: 15px;
+  border: none;
+  font-size: 16px;
+  margin: 10px auto;
+  font-weight: bold;
+  background: #ff6b00;
+  margin-left: 30px;
+  width: 161px;
+  height: 48px;
+}
+
+.works button:hover {
+  color: #ff6b00;
+  padding: 15px;
+  margin: 10px auto;
+  font-weight: bold;
+  background: white;
+  border: 1px solid #ff6b00;
+}
+
+.works .recent-works .see-project-button button {
+  background: #ff6b00;
+  color: white;
+  width: 154px;
+  height: 48px;
+  border: none;
+  margin-top: 20px;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+}
+
+.box {
+  height: auto;
+  padding: 20px;
+  display: grid;
+}
+
+.box .container {
+  height: 300px;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.2) 61.94%), url("img/Mask-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+
+.box .container h1 {
+  font-weight: normal;
+  font-family: "Crete Round", sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  color: white;
+}
+
+.box .container p {
   font-weight: normal;
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -261,17 +272,9 @@ header {
   color: white;
 }
 
-.works .segment .container .holder {
+.box .holder {
   display: flex;
-  flex-direction: row;
-}
-
-.works .segment .container .holder div {
-  background-color: rgba(255, 255, 255, 0.342);
-  padding: 10px;
-  margin-right: 10px;
-  color: white;
-  width: auto;
+  margin-bottom: 20px;
 }
 
 .about-me {
@@ -279,20 +282,10 @@ header {
   margin-top: 100px;
   height: auto;
   padding-top: 50px;
-}
-
-.about-me img {
-  position: absolute;
-  float: left;
-  margin-left: 48px;
-}
-
-.about-me .line {
-  border: 1px solid white;
-  position: inherit;
-  margin-top: 200px;
-  width: 300px;
-  margin-left: 50px;
+  background-image: url('img/illustration-about-me-mobile.svg');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 300px;
 }
 
 .about-me .language {
@@ -308,76 +301,13 @@ header {
   margin-top: 10px;
 }
 
-.about-me .language ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 0;
-}
-
-.about-me .language ul li {
-  color: white;
-  font-size: 22px;
-  list-style-type: none;
-  font-family: "Inter", sans-serif;
+.language h3 {
+  font-family: "InaiMathi", sans-serif;
   font-style: normal;
-  font-weight: normal;
-  line-height: 43px;
-  display: flex;
-}
-
-.about-me .frameworks {
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
-  align-items: center;
-  padding-top: 15px;
-}
-
-.about-me .frameworks img {
-  position: absolute;
-  margin-left: -19px;
-  margin-top: 10px;
-}
-
-.about-me .frameworks ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 0;
-}
-
-.about-me .skills {
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
-  align-items: center;
-  padding-top: 15px;
-}
-
-.about-me .skills img {
-  position: absolute;
-  margin-left: -19px;
-  margin-top: 10px;
-}
-
-.about-me .skills ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 0;
-}
-
-.about-me .skills ul li {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
   color: white;
-  font-size: 22px;
-  list-style-type: none;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 43px;
-  display: flex;
+  margin: 0;
+  padding-left: 8px;
 }
