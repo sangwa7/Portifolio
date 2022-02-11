@@ -4,12 +4,13 @@
 
 > Description the project.
 
-This project is my personal Portifolio on which you my find my recent work and connect to me via my social media platforms
+This project is my personal Portifolio on which you my find my recent work and connect to me via my social media platforms.
 
 ## Built With
 
 - HTML
 - CSS
+- Technologies used: LINT, HINT, LINTHOUSE
 
 
 
@@ -23,6 +24,9 @@ This project is my personal Portifolio on which you my find my recent work and c
 
 1. Should have installed any web browser
 
+### Setup
+
+npx stylelint "**/*.{css,scss}" npx hint ./index.html
 
 ### Usage
 
