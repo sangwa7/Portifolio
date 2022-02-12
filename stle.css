@@ -71,7 +71,7 @@ header {
   padding: 0;
 }
 
-.about-me h1 {
+.about-me h4 {
   font-family: "Crete Round", sans-serif;
   font-size: 72px;
   line-height: 88px;
@@ -222,12 +222,21 @@ header {
   height: 48px;
 }
 
-.works button:hover {
+.works button {
   color: #ff6b00;
   padding: 15px;
   margin: 10px auto;
   font-weight: bold;
   background: white;
+  border: 1px solid #ff6b00;
+}
+
+.works button:hover {
+  color: white;
+  padding: 15px;
+  margin: 10px auto;
+  font-weight: bold;
+  background: #ff6b00;
   border: 1px solid #ff6b00;
 }
 
@@ -238,6 +247,18 @@ header {
   height: 48px;
   border: none;
   margin-top: 20px;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+}
+
+.works .recent-works .see-project-button button:hover {
+  border:1px solid #ff6b00;
+  color: #ff6b00;
+  width: 154px;
+  height: 48px;
+  border: none;
+  margin-top: 20px;
+  background-color: white;
   font-size: 17px;
   font-family: "Inter", sans-serif;
 }
@@ -256,7 +277,7 @@ header {
   padding: 50px;
 }
 
-.box .container h1 {
+.box .container h3 {
   font-weight: normal;
   font-family: "Crete Round", sans-serif;
   font-size: 32px;
