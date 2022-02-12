@@ -252,11 +252,10 @@ header {
 }
 
 .works .recent-works .see-project-button button:hover {
-  border:1px solid #ff6b00;
+  border: 1px solid #ff6b00;
   color: #ff6b00;
   width: 154px;
   height: 48px;
-  border: none;
   margin-top: 20px;
   background-color: white;
   font-size: 17px;
@@ -275,6 +274,17 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px;
+}
+
+.language h3 {
+  font-family: "InaiMathi", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: white;
+  margin: 0;
+  padding-left: 8px;
 }
 
 .box .container h3 {
@@ -320,15 +330,4 @@ header {
   position: absolute;
   margin-left: -19px;
   margin-top: 10px;
-}
-
-.language h3 {
-  font-family: "InaiMathi", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 44px;
-  color: white;
-  margin: 0;
-  padding-left: 8px;
 }
