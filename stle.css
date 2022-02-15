@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   background-color: black;
   color: white;
@@ -331,3 +336,72 @@ header {
   margin-left: -19px;
   margin-top: 10px;
 }
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .footer-text {
+  padding: 20px;
+  /* min-height: 200px; */
+  height: 216px;
+  /* margin: 10px 5px; */
+}
+
+.footer .footer-form {
+  margin: 20px 5px;
+}
+
+.footer .footer-text p {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  font-size: 32px;
+}
+
+.footer form {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .footer-form input {
+  margin: 10px 5px;
+  background: #ffffff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 327px;
+  height: 48px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #6b778c;
+  padding: 15px 16px;
+}
+
+.footer .footer-form textarea {
+  margin: 10px 5px;
+  background: #ffffff;
+  color: #091e42;
+  border: 1px solid #36b37f;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+  width: 327px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding: 12px;
+  font-family: "Inter", sans-serif;
+}
+
