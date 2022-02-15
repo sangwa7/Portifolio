@@ -327,6 +327,7 @@ header {
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 300px;
+  padding-bottom: 70px;
 }
 
 .about-me .language {
@@ -349,19 +350,20 @@ header {
 .footer .footer-header {
   padding: 20px;
   height: 216px;
-  margin: 90px 24px 20px;
+  margin: 90px 24px 80px;
 }
 
 .footer .footer-form {
   margin: 20px 5px;
 }
 
-.footer .footer-text p {
-  font-weight: 700;
-  line-height: 44px;
+.footer .footer-header p {
   text-align: center;
   color: #172b4d;
   font-size: 32px;
+  font-family: "Inter", sans-serif;
+  font-weight: bolder;
+  line-height: 42px;
 }
 
 .footer form {
@@ -415,7 +417,21 @@ header {
   border: none;
   font-weight: bold;
   background: #ff6b00;
-  width: 100%;
+  height: 48px;
+  width: 40%;
   font-size: 17px;
   font-family: "Inter", sans-serif;
+}
+
+.footer div ul {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.footer div ul li {
+  padding: 10px;
+  list-style-type: none;
 }
