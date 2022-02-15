@@ -142,6 +142,19 @@ header {
   color: #091e42;
 }
 
+.footer div ul {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.footer div ul li {
+  padding: 10px;
+  list-style-type: none;
+}
+
 .box .holder ul {
   list-style-type: none;
   display: flex;
@@ -275,12 +288,7 @@ header {
 
 .box .container {
   height: 300px;
-  background: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.2) 61.94%
-    ),
-    url("img/Mask-bg.svg");
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.2) 61.94%), url("img/Mask-bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px;
@@ -342,6 +350,7 @@ header {
   margin-left: -19px;
   margin-top: 10px;
 }
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -377,7 +386,7 @@ header {
 
 .footer .footer-form input {
   margin: 10px 5px;
-  background: #ffffff;
+  background: #fff;
   box-sizing: border-box;
   border-radius: 4px;
   width: 327px;
@@ -395,8 +404,8 @@ header {
 
 .footer .footer-form textarea {
   margin: 10px 5px;
-  background: #FBF8F7;
-  color: #3C3A39;
+  background: #fbf8f7;
+  color: #3c3a39;
   border: none;
   outline: none;
   border-radius: 4px;
@@ -423,15 +432,15 @@ header {
   font-family: "Inter", sans-serif;
 }
 
-.footer div ul {
-  display: flex;
-  flex-direction: row;
-  padding: 10px;
-  justify-content: center;
-  margin-top: 50px;
-}
-
-.footer div ul li {
-  padding: 10px;
-  list-style-type: none;
+.footer-form .see-project-button:hover {
+  margin: 0;
+  color: #ff6b00;
+  padding: 15px;
+  font-weight: bold;
+  background: white;
+  height: 48px;
+  width: 40%;
+  font-size: 17px;
+  border: 1px solid #ff6b00;
+  font-family: "Inter", sans-serif;
 }
