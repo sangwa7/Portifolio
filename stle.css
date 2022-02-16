@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   background-color: black;
   color: white;
@@ -135,6 +140,19 @@ header {
   line-height: 44px;
   line-height: 24px;
   color: #091e42;
+}
+
+.footer div ul {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.footer div ul li {
+  padding: 10px;
+  list-style-type: none;
 }
 
 .box .holder ul {
@@ -313,10 +331,11 @@ header {
   margin-top: 100px;
   height: auto;
   padding-top: 50px;
-  background-image: url('img/illustration-about-me-mobile.svg');
+  background-image: url("img/illustration-about-me-mobile.svg");
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 300px;
+  padding-bottom: 70px;
 }
 
 .about-me .language {
@@ -330,4 +349,102 @@ header {
   position: absolute;
   margin-left: -19px;
   margin-top: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .footer-header {
+  padding: 20px;
+  height: 216px;
+  margin: 90px 24px 80px;
+}
+
+.footer .footer-form {
+  margin: 20px 5px;
+}
+
+.footer .footer-header p {
+  text-align: center;
+  color: #172b4d;
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+  font-weight: bolder;
+  line-height: 42px;
+}
+
+.footer form {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .footer-form input {
+  margin: 10px 5px;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 90%;
+  height: 48px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  align-items: center;
+  color: #979493;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #d0d9d4;
+}
+
+.footer .footer-form textarea {
+  margin: 10px 5px;
+  background: #fbf8f7;
+  color: #3c3a39;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  width: 90%;
+  box-sizing: border-box;
+  padding: 12px;
+  font-family: "Inter", sans-serif;
+  height: 114px;
+}
+
+.footer-form .see-project-button {
+  margin: 0;
+  color: white;
+  padding: 15px 10px;
+  border: none;
+  font-weight: bold;
+  background: #ff6b00;
+  height: 48px;
+  width: 40%;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.footer-form .see-project-button:hover {
+  color: #ff6b00;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+}
+
+.footer-form .see-project-button:active {
+  color: #f4f1f0;
+  background: #e05304;
+}
+
+.footer-form .see-project-button:disabled {
+  color: #5b5957;
+  background: #f4f1f0;
 }
