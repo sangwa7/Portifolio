@@ -389,7 +389,7 @@ header {
   background: #fff;
   box-sizing: border-box;
   border-radius: 4px;
-  width: 327px;
+  width: 90%;
   height: 48px;
   font-weight: 400;
   font-size: 15px;
@@ -412,7 +412,7 @@ header {
   font-size: 15px;
   line-height: 24px;
   font-weight: 400;
-  width: 327px;
+  width: 90%;
   box-sizing: border-box;
   padding: 12px;
   font-family: "Inter", sans-serif;
@@ -422,7 +422,7 @@ header {
 .footer-form .see-project-button {
   margin: 0;
   color: white;
-  padding: 15px;
+  padding: 15px 10px;
   border: none;
   font-weight: bold;
   background: #ff6b00;
@@ -430,17 +430,21 @@ header {
   width: 40%;
   font-size: 17px;
   font-family: "Inter", sans-serif;
+  text-align: center;
 }
 
 .footer-form .see-project-button:hover {
-  margin: 0;
   color: #ff6b00;
-  padding: 15px;
-  font-weight: bold;
-  background: white;
-  height: 48px;
-  width: 40%;
-  font-size: 17px;
-  border: 1px solid #ff6b00;
-  font-family: "Inter", sans-serif;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+}
+
+.footer-form .see-project-button:active {
+  color: #f4f1f0;
+  background: #e05304;
+}
+
+.footer-form .see-project-button:disabled {
+  color: #5b5957;
+  background: #f4f1f0;
 }
