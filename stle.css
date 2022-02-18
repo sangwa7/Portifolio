@@ -242,6 +242,10 @@ header {
   margin-right: 20px;
 }
 
+.box .form-1 {
+  display: none;
+}
+
 .box button {
   margin: 0;
   color: white;
@@ -469,7 +473,7 @@ header {
   background: #f4f1f0;
 }
 
-@media (min-width: 1180px) {
+@media (min-width: 1070px) {
   * {
     margin: 0;
     padding: 0;
@@ -523,7 +527,7 @@ header {
     position: absolute;
     z-index: 3;
     margin-right: 20px;
-    padding: 300px 0;
+    padding: 270px 0;
   }
 
   .header-title .socials ul {
@@ -533,14 +537,14 @@ header {
   }
 
   .header-title .socials ul li {
-    padding: 10px;
+    padding: 8px;
     list-style-type: none;
   }
 
   .header-title .title {
     align-items: center;
     position: absolute;
-    width: 40%;
+    width: 29%;
     margin-left: 80px;
     margin-bottom: 30px;
     padding: 200px 120px;
@@ -561,6 +565,8 @@ header {
   .recent-works {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
   }
 
   .recent-works .title {
@@ -570,18 +576,21 @@ header {
     padding: 12px 0;
   }
 
+  .recent-works .title h1{
+    width: 340px;
+    height: 40px;
+  }
+
   .about-me .line {
-    width: 1200px;
+    width: 80%;
     margin-left: 141px;
     border-bottom: 1px;
   }
 
   .recent-works .title .line {
-    width: 71%;
-    margin-left: 40px;
-    height: 0.7px;
+    width: 88%;
+    height: 0.3px;
     background-color: black;
-    border: 1px solid black;
     margin-top: 3.3rem;
   }
 
@@ -624,70 +633,89 @@ header {
   }
 
   .recent-works .section-2 .multi-post-stories ul {
-    margin: 0 2px;
     padding: 0;
     display: flex;
     flex-direction: row;
   }
 
   .box {
-    padding: 0 135px;
-    position: relative;
+    height: auto;
+    grid-row-start: 40px;
+    padding: 40px 141px 200px 141px;
     display: grid;
     grid-template-columns: auto auto auto;
   }
 
-  .box .form {
-    margin: 24px 14px;
-  }
-
-  .box .form .container .holder ul {
-    top: 80px;
-  }
-
-  .box .form-1 {
-    margin: 22px 14px;
-  }
 
   .box .form button {
     display: none;
   }
 
-  .box .form-1 button {
-    width: 25.6%;
-    top: 41.8%;
-    position: absolute;
+  .box .form-1 {
+    display: block;
   }
 
-  .box .form-1 .container {
-    height: 300px;
-    background: none #157fcc;
-    background: url("img/Img\ Placeholder.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 2px solid black;
+  .box .form-1 button {
+    padding: 0;
+    width: 90%;
+    height: 435px;
   }
 
   .about-me .language h3 {
     margin-left: 10px;
   }
 
+  .box .form {
+    margin-top: 37px;
+  }
+
+  .box .form-1 {
+    margin-top: 37px;
+  }
+
+  .box .form-1 .container button
+  {
+    width: 100%;
+    height: 60px;
+    margin-top: 375px;
+  }
+
+  .box .form .container {
+    padding: 0;
+    width: 90%;
+    height: 435px;
+  }
+
   .box .form .container h3 {
-    margin-top: 70px;
+    padding-left: 24px;
+    padding-top: 180px;
+    line-height: 44px;
+    padding-bottom: 12px;
   }
 
   .box .form .container p {
-    margin-top: 20px;
+    padding-left: 24px;
+    line-height: 24px;
+    padding-bottom: 24px;
   }
 
+  .box .form .container .holder {
+    padding-left: 24px;
+  }
+
+  .box .form-1 .container {
+    padding: 0;
+    width: 90%;
+    height: 435px;
+    background: url("img/Img\ Placeholder.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
   .footer .holder {
     padding: 141px;
     display: grid;
     grid-template-columns: 40% 60%;
-  }
-
-  .box .container .holder {
-    margin-top: 20px;
   }
 
   .about-me {
@@ -724,7 +752,8 @@ header {
   }
 
   .about-me .language ul li {
-    line-height: 50px;
+    line-height: 10px;
+    margin: 16px 4px;
   }
 
   .footer {
@@ -745,7 +774,15 @@ header {
   }
 
   .footer .footer-form button {
-    margin-right: 370px;
+    margin-right: 550px;
+    width: 122px;
+    height: 48px;
+    padding: 0;
+    font-size: 17px;
+    line-height: 24px;
+    color: white;
+    line-height: 24px;
+    margin-top: 24px;
   }
 
   .footer .socials-footer {
