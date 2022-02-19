@@ -693,7 +693,7 @@ header {
   .box .form-1:hover {
     opacity: 0.8;
     transition: 0.5s;
-    cursor: pointer
+    cursor: pointer;
   }
 
   .footer .footer-form button {
