@@ -679,9 +679,21 @@ header {
     margin-top: 37px;
   }
 
+  .box .form:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
   .box .form-1 {
     margin-top: 37px;
     display: block;
+  }
+
+  .box .form-1:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+    cursor: pointer
   }
 
   .footer .footer-form button {
