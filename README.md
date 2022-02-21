@@ -12,6 +12,9 @@ This project is my personal Portifolio on which you my find my recent work and c
 - CSS
 - Technologies used: LINT, HINT, LINTHOUSE
 
+## Live Demo
+
+[Live Demo Link] (https://sangwa7.github.io/Portifolio/)
 
 
 ## Getting Started
