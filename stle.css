@@ -14,8 +14,58 @@ header {
   height: 3.3em;
   display: flex;
   justify-content: space-between;
-  padding: 0 23px;
   align-items: center;
+}
+
+.nav-bar .name {
+  margin-left: 2.2rem;
+}
+
+.nav-bar .menu {
+  margin-right: 2.2rem;
+}
+
+.mobile-menu {
+  margin-top: 650px;
+  padding: 0;
+  display: none;
+  position: absolute;
+  width: 100%;
+  z-index: 232;
+  background-color: #3C3A39;
+  height: 700px;
+}
+
+.mobile-menu .close-icon {
+  z-index: 300;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 5%;
+}
+
+.menu-list ul {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 24px;
+  left: 40px;
+  right: 68px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #FFF5E1;
+  top: calc(20% - 24px/2);
+  list-style-type: none;
+  width: 82%;
+}
+
+.menu-list ul li {
+  border-bottom: 1px solid #FFF5E1;
+  padding: 10px 20px;
+
 }
 
 .about-me img {
@@ -45,6 +95,7 @@ header {
   background-position-x: right;
   background-position-y: bottom;
   background-size: 30%;
+  margin-bottom: 60px;
 }
 
 .header-title .title h1 {
@@ -501,7 +552,10 @@ header {
     margin: 0;
     font-family: "Inter", sans-serif;
     font-size: 15px;
-    padding: 0 80px;
+  }
+
+  .nav-bar .name {
+    margin-left: 8rem;
   }
 
   .nav-bar .menu img {
