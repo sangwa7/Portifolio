@@ -42,6 +42,10 @@ header {
   transition: 0.5s ease-in;
 }
 
+.mobile-menu a {
+  text-decoration: none;
+}
+
 .close-icon {
   float: right;
   margin-right: 40px;
@@ -70,6 +74,12 @@ header {
 .menu-list ul li {
   border-bottom: 1px solid #fff5e1;
   padding: 10px 20px;
+  color: white;
+}
+
+.menu-list ul li a {
+  text-decoration: none;
+  color: white;
 }
 
 .about-me img {
@@ -580,6 +590,16 @@ header {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+  }
+
+  .menu-list ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .nav-bar .menu-text ul li a {
+    text-decoration: none;
+    color: white;
   }
 
   .nav-bar .menu-text ul li {

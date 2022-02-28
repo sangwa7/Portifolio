@@ -9,3 +9,13 @@ function mobileMenu() {
   });
 }
 mobileMenu();
+
+function menuLink() {
+  const elements = document.getElementsByClassName('mobile-menu');
+  Array.from(elements).forEach((x) => {
+    if (x.style.display === 'block') {
+      x.style.display = 'none';
+    }
+  });
+}
+menuLink();
