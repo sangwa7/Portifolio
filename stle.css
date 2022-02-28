@@ -28,20 +28,20 @@ header {
 .mobile-menu {
   margin-top: 650px;
   padding: 0;
-  display: none;
+  display: block;
   position: absolute;
   width: 100%;
   z-index: 232;
   background-color: #3C3A39;
   height: 700px;
+  transition: 0.5s ease-in;
 }
 
-.mobile-menu .close-icon {
-  z-index: 300;
+.close-icon {
   float: right;
-  margin-right: 20px;
-  margin-top: 20px;
-  width: 5%;
+  margin-right: 40px;
+  margin-top: 7px;
+  width: 4%;
 }
 
 .menu-list ul {
