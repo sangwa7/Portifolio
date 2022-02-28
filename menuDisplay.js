@@ -1,11 +1,11 @@
-function myFunction() {
-    var elements = document.getElementsByClassName('mobile-menu');
-    Array.from(elements).forEach((x) => {
-        if (x.style.display === "block") {
-            x.style.display = "none";
-            x.style.transition = "0.5s ease-in"
-          } else {
-            x.style.display = "block";
-          }
-    })
- }
+function mobileMenu() {
+  const elements = document.getElementsByClassName('mobile-menu');
+  Array.from(elements).forEach((x) => {
+    if (x.style.display === 'none') {
+      x.style.display = 'block';
+    } else {
+      x.style.display = 'none';
+    }
+  });
+}
+mobileMenu();

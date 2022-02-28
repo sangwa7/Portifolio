@@ -19,6 +19,11 @@ header {
 
 .nav-bar .name {
   margin-left: 2.2rem;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .nav-bar .menu {
@@ -26,21 +31,21 @@ header {
 }
 
 .mobile-menu {
-  margin-top: 650px;
-  padding: 0;
-  display: block;
-  position: absolute;
+  display: none;
+  top: 0;
+  position: fixed;
   width: 100%;
+  padding: 0;
   z-index: 232;
-  background-color: #3C3A39;
-  height: 700px;
+  background-color: #3c3a39;
+  height: 100%;
   transition: 0.5s ease-in;
 }
 
 .close-icon {
   float: right;
   margin-right: 40px;
-  margin-top: 7px;
+  margin-top: 20px;
   width: 4%;
 }
 
@@ -56,16 +61,15 @@ header {
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
-  color: #FFF5E1;
-  top: calc(20% - 24px/2);
+  color: #fff5e1;
+  top: calc(7% - 24px / 2);
   list-style-type: none;
   width: 82%;
 }
 
 .menu-list ul li {
-  border-bottom: 1px solid #FFF5E1;
+  border-bottom: 1px solid #fff5e1;
   padding: 10px 20px;
-
 }
 
 .about-me img {
@@ -884,5 +888,9 @@ header {
     margin-top: 50px;
     border-top: 1px solid #dfe1e6;
     width: 100%;
+  }
+
+  .mobile-menu {
+    display: none;
   }
 }
