@@ -37,6 +37,16 @@ header {
   transition: 0.5s ease-in;
 }
 
+.mobile-menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-text a {
+  text-decoration: none;
+  color: white;
+}
+
 .close-icon {
   float: right;
   margin-right: 40px;
@@ -250,6 +260,28 @@ header {
   padding: 0;
 }
 
+.project-detail .project-detail-technologies ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 24px;
+}
+
+.project-detail .project-detail-technologies ul li {
+  padding: 8px 15px;
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  justify-content: space-between;
+  line-height: 22px;
+  border: 1px solid #8993a4;
+  width: auto;
+  color: #091e42;
+  margin-right: 20px;
+}
+
 .works .recent-works .tech ul {
   list-style-type: none;
   display: flex;
@@ -392,12 +424,7 @@ header {
 
 .box .container {
   height: 300px;
-  background: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.2) 61.94%
-    ),
-    url("img/Mask-bg.svg");
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.2) 61.94%), url("img/Mask-bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px;
@@ -557,9 +584,9 @@ header {
   width: 100%;
   min-width: 343px;
   height: 989px;
-  position: absolute;
+  position: fixed;
   backdrop-filter: blur(10px);
-  opacity: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   align-items: center;
   display: none;
   top: 0;
@@ -579,7 +606,7 @@ header {
 }
 
 .content-holder h6 {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -587,58 +614,34 @@ header {
   color: #172b4d;
 }
 
-.project-title {
+.project-detail .project-title {
   min-width: 343px;
   width: 80%;
   float: left;
   height: 82px;
 }
 
-.project-detail-close-button {
+.project-detail .project-detail-close-button {
   width: 10px;
   right: calc(10% - 24px / 2);
   top: 30px;
-  left: 200px;
   position: absolute;
 }
 
-.project-detail-technologies ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 24px;
-}
-
-.project-detail-technologies ul li {
-  padding: 8px 15px;
-  font-family: "Inter", sans-serif;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  justify-content: space-between;
-  line-height: 22px;
-  border: 1px solid #8993a4;
-  width: auto;
-  color: #091e42;
-  margin-right: 20px;
-}
-
-.project-detail-image {
+.project-detail .project-detail-image {
   float: right;
 }
 
-.project-detail-image img {
+.project-detail .project-detail-image img {
   width: 100%;
 }
 
-.project-detail-text {
+.project-detail .project-detail-text {
   min-width: 311px;
   width: 100%;
 }
 
-.project-detail-text p {
+.project-detail .project-detail-text p {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -657,7 +660,6 @@ header {
 }
 
 .project-detail-button-1 {
-  padding: 12px;
   background-color: #ff6b00;
   border: none;
   font-family: "Inter", sans-serif;
@@ -666,10 +668,10 @@ header {
   font-size: 17px;
   line-height: 24px;
   color: white;
-  margin: 12px 0px;
+  margin: 12px 0;
   height: 48px;
   width: 134px;
-  border-radius: 0px;
+  border-radius: 0;
   padding: 12px;
 }
 
@@ -683,12 +685,10 @@ header {
   font-size: 17px;
   line-height: 24px;
   color: white;
-  margin: 12px 0px;
+  margin: 12px 0;
   height: 48px;
   width: 159px;
-
-  border-radius: 0px;
-  padding: 12px;
+  border-radius: 0;
 }
 
 @media (min-width: 1070px) {
@@ -1036,22 +1036,60 @@ header {
   }
 
   .project-detail {
+    position: fixed;
+    height: 100%;
     width: 100%;
     z-index: 500;
-    display: flex;
-    flex-direction: row;
+    display: none;
+    margin: 0;
     backdrop-filter: blur(10px);
-    opacity: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .content-holder {
+    margin: 30px 160px;
+    width: 1156px;
+    height: 631px;
+    background-color: white;
+  }
+
+  .project-detail-close-button {
+    width: 20px;
+    margin-right: calc(12% - 24px / 2);
+    top: 30px;
+    position: absolute;
   }
 
   .project-detail-image {
-    width: 60%;
-    float: left;
-    flex-direction: row;
+    width: 659px;
+    height: 448px;
+    top: 156px;
   }
 
-  .project-detail-text {
-    width: 35%;
-    float: right;
+  .project-detail .project-detail-text {
+    position: absolute;
+    width: 424px;
+    height: 336px;
+    font-size: 86px;
+    line-height: 30px;
+    margin-left: 700px;
+    margin-top: 145px;
+  }
+
+  .project-detail-button-section {
+    position: absolute;
+    left: 750px;
+    margin-top: 550px;
+  }
+
+  .project-detail-button-1 {
+    margin-left: 350px;
+    position: absolute;
+  }
+
+  .project-detail-button-2 {
+    margin-left: 650px;
+    position: absolute;
+    margin-bottom: 30px;
   }
 }
