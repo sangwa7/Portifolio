@@ -51,7 +51,6 @@ header {
   float: right;
   margin-right: 40px;
   margin-top: 7px;
-  width: 4%;
 }
 
 .menu-list ul {
@@ -622,9 +621,9 @@ header {
 }
 
 .project-detail .project-detail-close-button {
-  width: 10px;
+  width: 14px;
   right: calc(10% - 24px / 2);
-  top: 30px;
+  top: 22px;
   position: absolute;
 }
 
@@ -1053,13 +1052,13 @@ header {
   .content-holder {
     margin: 30px 160px;
     width: 80%;
-    height: 90%;
+    height: 86%;
     background-color: white;
   }
 
-  .project-detail-close-button {
-    width: 20px;
-    margin-right: calc(12% - 24px / 2);
+  .project-detail .project-detail-close-button {
+    width: 14px;
+    margin-right: calc(4% - 24px / 2);
     top: 30px;
     position: absolute;
   }
@@ -1067,24 +1066,24 @@ header {
   .project-detail-image {
     position: initial;
     width: 60%;
-    height: 448px;
     top: 156px;
   }
 
   .project-detail .project-detail-text {
     position: absolute;
-    width: 424px;
+    width: 30%;
     height: 336px;
     font-size: 86px;
     line-height: 30px;
     margin-left: 50%;
-    margin-top: 145px;
+    margin-top: 110px;
+    z-index: 3234;
   }
 
   .project-detail-button-section {
     position: absolute;
     left: 60%;
-    margin-top: 550px;
+    margin-top: 540px;
     width: 30%;
   }
 

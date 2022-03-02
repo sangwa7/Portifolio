@@ -18,7 +18,7 @@ const projectDetails = [
     title: 'Multi Post Stories 123',
     image: 'Snapshoot-Portfolio.svg',
     mageAlt: '',
-    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy textever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
     technologies: ['html', 'css', 'JavaScript'],
     sourceCode: 'https://github.com/sangwa7/Portifolio',
     seeLive: 'https://sangwa7.github.io/Portifolio/',
