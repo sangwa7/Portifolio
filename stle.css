@@ -1048,8 +1048,8 @@ header {
 
   .content-holder {
     margin: 30px 160px;
-    width: 1156px;
-    height: 631px;
+    width: 80%;
+    height: 90%;
     background-color: white;
   }
 
@@ -1061,7 +1061,8 @@ header {
   }
 
   .project-detail-image {
-    width: 659px;
+    position: initial;
+    width: 60%;
     height: 448px;
     top: 156px;
   }
@@ -1072,7 +1073,7 @@ header {
     height: 336px;
     font-size: 86px;
     line-height: 30px;
-    margin-left: 700px;
+    margin-left: 50%;
     margin-top: 145px;
   }
 
@@ -1083,7 +1084,7 @@ header {
   }
 
   .project-detail-button-1 {
-    margin-left: 350px;
+    margin-left: 450px;
     position: absolute;
   }
 
