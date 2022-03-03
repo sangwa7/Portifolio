@@ -694,6 +694,15 @@ header {
   text-decoration: none;
 }
 
+.form-warning-message {
+  color: red;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  width: auto;
+  margin: 20px 0;
+}
+
 @media (min-width: 1070px) {
   * {
     margin: 0;

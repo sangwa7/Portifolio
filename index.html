@@ -349,21 +349,21 @@
           </p>
         </div>
         <div class="footer-form">
-          <form method="post" action="https://formspree.io/f/xqknqqqp">
+          <form method="post" id = "contact-form" action="https://formspree.io/f/xqknqqqp" name = "myForm"  onsubmit = "validate()">
             <input
               type="text"
               id="full-name"
-              name="user-full-name"
+              name="fullName"
               maxlength="30"
               placeholder="Full Name"
               required
             />
             <input
               type="email"
-              name="user_email"
+              name="Email"
               id="email"
-              required
               placeholder="Email address"
+              required
             />
             <textarea
               name="user-message"
@@ -371,12 +371,13 @@
               cols="30"
               rows="10"
               maxlength="500"
-              required
               placeholder="Enter text here"
+              required
             ></textarea>
-            <button type="submit" class="see-project-button">
+            <button id="submit" type="submit" class="see-project-button">
               Get in touch
             </button>
+            <p id = "warning-message" class="form-warning-message"></p>
           </form>
         </div>
       </div>
@@ -411,6 +412,7 @@
       </div>
     </footer>
     <ul class="exercise-list"></ul>
+    <script src="formValidation.js"></script>
     <script src="menuDisplay.js"></script>
     <script src="projectDetailModal.js"></script>
   </body>
