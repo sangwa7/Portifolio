@@ -9,7 +9,7 @@ document.querySelector('#contact-form').addEventListener('submit', (e) => {
 
   const emailArray = email.split('');
 
-  for (let i = 0; i < emailArray.length; i += 1) {
+  for ( i = 0; i < emailArray.length; i += 1) {
     if (
       emailArray[i] !== emailArray[i].toLowerCase()
       && emailArray[i] !== '@' && emailArray[i] !== '.'
