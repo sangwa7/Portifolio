@@ -14,7 +14,7 @@ This project is my personal Portifolio on which you my find my recent work and c
 
 ## Live Demo
 
-[Live Demo Link] (https://sangwa7.github.io/Portifolio/)
+[Live Demo Link](https://sangwa7.github.io/Portifolio/)
 
 
 ## Getting Started
