@@ -37,13 +37,13 @@ npx stylelint "**/*.{css,scss}" npx hint ./index.html
 
 
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **Sangwa Didier**
 
-- GitHub: [@sangwa7](https://github.com/sangwa7)
-- Twitter: [@twitterhandle](https://twitter.com/didiersangwa)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/didiersangwa)
+- GitHub: [Didier Sangwa](https://github.com/sangwa7)
+- Twitter: [@sangwa_7](https://twitter.com/sangwa_7)
+- LinkedIn: [Didier Sangwa](https://www.linkedin.com/in/didier-sangwa-463054227)
 
 
 ## 🤝 Contributing
